@@ -1,6 +1,5 @@
 backend:
-  name: git-gateway
-  branch: main
+  name: test-repo
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
@@ -8,7 +7,7 @@ public_folder: "/uploads"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "public/post"   # 👈 change this
+    folder: "public/post"
     create: true
     slug: "{{slug}}"
     fields:
