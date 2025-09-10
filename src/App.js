@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import BlogPost from "./pages/Blogpost";
 import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/post/:id" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer /> {/* Footer always visible */}
     </Router>

@@ -26,10 +26,10 @@ function Navbar() {
 
   // Navigation items with icons
   const navItems = [
-    { path: "/", label: "Home", icon: "🏠" },
-    { path: "/about", label: "About", icon: "👤" },
-    { path: "/blog", label: "Blog", icon: "📝" },
-    { path: "/contact", label: "Contact", icon: "📧" }
+    { path: "/", label: "Home", icon: "" },
+    { path: "/about", label: "About", icon: "" },
+    { path: "/blog", label: "Blog", icon: "" },
+    { path: "/contact", label: "Contact", icon: "" }
   ];
 
   return (
@@ -66,7 +66,7 @@ function Navbar() {
           onClick={closeMenu}
         >
           <span style={{ marginRight: "8px", fontSize: "1.2rem" }}>✨</span>
-          Kagure Blog
+          Kagure's Blog
         </NavLink>
         
         <button
